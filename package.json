@@ -1,0 +1,36 @@
+{
+  "name": "terra-digital-backend",
+  "version": "1.0.0",
+  "description": "**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://abhishek2295@bitbucket.org/HousingMarket/terra-digital.git"
+  },
+  "author": "Abhishek Kumar",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/HousingMarket/terra-digital#readme",
+  "dependencies": {
+    "activecampaign": "^1.2.5",
+    "async": "^3.2.0",
+    "aws-sdk": "^2.834.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.7.0",
+    "helmet": "^4.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.2",
+    "mysql2": "^2.2.5",
+    "nodemailer": "^6.4.17",
+    "nodemon": "^2.0.6",
+    "sequelize": "^6.3.5",
+    "twilio": "^3.55.1",
+    "winston": "^3.3.3",
+    "wordpress-hash-node": "^1.0.0"
+  }
+}
